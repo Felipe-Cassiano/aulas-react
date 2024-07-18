@@ -1,19 +1,12 @@
-import { GeoForm } from '@/components/GeoForm'
-import { Person } from '@/components/Person'
-
 const Page = () => {
   return(
-
-    <div className='flex flex-col items-center'>
-      <h1 className="font-bold text-lg bg-sky-500 hover:bg-sky-700">Hello World!</h1>
-      <h3>Algum outro texto!</h3>
-      <GeoForm/>
-      <Person/>
+    <div className="flex flex-col justify-center items-center">
+      <h1 className="text-sky-200 font-bold">Olá mundo!</h1>
+      <img src='https://h2.gifposter.com/gifs/cartoon/love-hug.gif' alt="" className="w-72"/>
+      <p>Essa é minha primeira página web</p>
+      <button className='bg-sky-200 text-black p-2 rounded-lg'>Clique aqui</button>
     </div>
-
   )
 }
 
-
-//Todo componente criado, eu tenho que exportar
 export default Page
